@@ -100,7 +100,7 @@ const Result = forwardRef<HTMLDivElement, TestResultProps>(
 		const { cpm, wpm, accuracy } = calculate();
 		const typedWordsCount = data.typed.length;
 		return (
-			<div ref={ref} className={clsx('p-1 text-center', className)}>
+			<div ref={ref} className={clsx('p-2 text-center', className)}>
 				<div className="stats grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1">
 					<div className="stat">
 						<div className="stat-title mb-4 text-2xl md:text-3xl lg:text-4xl">
